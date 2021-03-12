@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/working-notes/pages`,
+  pathPrefix: `/working-notes`,
   siteMetadata: {
     title: `Adit's Public Working Notes`,
   },
@@ -7,11 +7,12 @@ module.exports = {
     {
       resolve: `gatsby-theme-garden`,
       options: {
-        rootNote: "/readme",
+        rootNote: "/home",
         contentPath: `${__dirname}/..`,
         ignore: [
           "**/_layouts/**",
           "**/.git/**",
+          "**/readme.md",
           "**/.github/**",
           "**/.vscode/**",
         ],
