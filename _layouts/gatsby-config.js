@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/working-notes`,
+  pathPrefix: `/`,
   siteMetadata: {
     title: `Adit's Public Working Notes`,
   },
